@@ -6,7 +6,7 @@ const Splash = () => {
   return (
     <View style={styles.container}>
       <ILLogo />
-      <Text style={styles.title}>MyDoctor</Text>
+      <Text style={styles.title}>My Doctor</Text>
     </View>
   );
 };
@@ -21,7 +21,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontWeight: '600',
+    fontFamily: 'Nunito-SemiBold',
+    // fontWeight: '600',
     marginTop: 20,
   },
 });
