@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
 import {Button, FormData, Gap, Header} from '../../components';
+import {colors} from '../../utils';
 
 const Register = () => {
   return (
@@ -25,7 +26,7 @@ export default Register;
 
 const styles = StyleSheet.create({
   page: {
-    backgroundColor: 'white',
+    backgroundColor: colors.white,
     flex: 1,
   },
   container: {

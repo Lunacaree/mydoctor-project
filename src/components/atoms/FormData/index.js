@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View, TextInput} from 'react-native';
+import {colors} from '../../../utils';
 
 const FormData = ({title}) => {
   return (
@@ -15,11 +16,11 @@ export default FormData;
 const styles = StyleSheet.create({
   textTitle: {
     fontFamily: 'Nunito-SemiBold',
-    color: '#7D8797',
+    color: colors.text.secondary,
   },
   inputForm: {
     borderWidth: 1,
-    borderColor: '#E9E9E9',
+    borderColor: colors.border,
     padding: 12,
     borderRadius: 10,
     marginBottom: 6,

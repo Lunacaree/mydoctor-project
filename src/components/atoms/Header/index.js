@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {IconBackDark} from '../../../assets';
+import {colors} from '../../../utils';
 
 const Header = ({title}) => {
   return (
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   text: {
-    color: '#112340',
+    color: colors.text.primary,
     fontFamily: 'Nunito-SemiBold',
     flex: 1,
     textAlign: 'center',
