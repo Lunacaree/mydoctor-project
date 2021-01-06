@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
   container: (type) => ({
     borderRadius: 10,
     height: 45,
-    backgroundColor: type === 'secondary' ? 'white' : '#0BCAD4',
-    marginBottom: 7,
+    marginBottom: 8,
+    backgroundColor: type === 'primary' ? '#0BCAD4' : '#FFFFFF',
   }),
   text: (type) => ({
     textAlign: 'center',

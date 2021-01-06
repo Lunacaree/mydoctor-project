@@ -1,0 +1,30 @@
+import React from 'react';
+import {StyleSheet, Text, View} from 'react-native';
+import {IconBackDark} from '../../../assets';
+
+const Header = ({title}) => {
+  return (
+    <View style={styles.container}>
+      <IconBackDark />
+      <Text style={styles.text}>{title}</Text>
+    </View>
+  );
+};
+
+export default Header;
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    paddingVertical: 30,
+    paddingHorizontal: 16,
+    alignItems: 'center',
+    backgroundColor: 'white',
+  },
+  text: {
+    color: '#112340',
+    fontFamily: 'Nunito-SemiBold',
+    flex: 1,
+    textAlign: 'center',
+  },
+});
